@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="/styles/introSectionstyles.css" />
     <link rel="stylesheet" href="/styles/aboutSectionStyles.css" />
     <link rel="stylesheet" href="/styles/cottagesSectionStyles.css" />
+    <link rel="stylesheet" href="/styles/locationSectionStyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Elite building</title>
   </head>
   <body>
@@ -143,7 +151,31 @@
     <div class="section-wrapper cottage-section-wrapper">
       <section id="cottagesSection">
         <h1 class="section-heading">Cottages</h1>
+        <div class="cottages-slider">
+          <button class="round-btn prev-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="cottage-images-container">
+            <img
+              class="cottage-img"
+              src="/images/cottages/cottage1.jpg"
+              alt="cottage1"
+            />
+            <img class="dot-img" src="/images/doted-bg.png" />
+          </div>
+          <div class="cottage-details">
+            <h3>2152 sq feet</h3>
+            <div class="plan-img-contianer">
+              <img src="/images/cottagePlans/plan1.png" alt="" />
+            </div>
+          </div>
+          <button class="round-btn next-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
       </section>
     </div>
+
+    <div class="section-wrapper"></div>
   </body>
 </html>

@@ -1,13 +1,97 @@
 @import "commonStyles.css";
 
-#cottagesSection {
+.cottage-section-wrapper {
   background-color: rgba(132, 34, 49, 0.05);
   height: 613px;
-  font-family: "Fira Sans", sans-serif;
-  color: var(--black-font-color);
 }
 
-#cottagesSection .section-heading {
-  margin-top: 39px;
-  margin-left: 130px;
+#cottagesSection {
+  max-width: 1200px;
+  width: 100%;
+  font-family: "Fira Sans", sans-serif;
+  color: var(--black-font-color);
+  padding-top: 39px;
+}
+
+.cottages-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 28px;
+  position: relative;
+  width: 100%;
+}
+
+.round-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 200;
+  cursor: pointer;
+  position: absolute;
+}
+
+.prev-btn {
+  left: -90px;
+}
+
+.next-btn {
+  right: -90px;
+}
+
+.round-btn:active {
+  transform: scale(0.96);
+}
+
+.cottage-images-container {
+  width: 692px;
+  height: 414px;
+}
+
+.cottage-images-container img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cottage-img {
+  z-index: 100;
+}
+
+.dot-img {
+  max-width: 450px;
+  max-height: 513px;
+  height: 100%;
+  position: absolute;
+  top: 40px;
+  left: -30px;
+  z-index: -1;
+}
+
+.cottage-details {
+  margin-left: 68px;
+}
+
+.cottage-details h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.plan-img-contianer {
+  width: 436px;
+  height: 359px;
+}
+
+.plan-img-contianer img {
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
