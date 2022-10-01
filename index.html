@@ -10,58 +10,140 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="section2.css" />
+
+    <link rel="stylesheet" href="/styles/introSectionstyles.css" />
+    <link rel="stylesheet" href="/styles/aboutSectionStyles.css" />
+    <link rel="stylesheet" href="/styles/cottagesSectionStyles.css" />
     <title>Elite building</title>
   </head>
   <body>
-    <section id="introductionSection">
+    <div class="section-wrapper intro-section-wrapper">
       <div class="overlay"></div>
-      <header id="mainHeader">
-        <div id="headerImage">
-          <img src="/images/logo.png" alt="logo" />
-        </div>
-        <div id="headerInfo">
-          <div class="headerContact">
-            <i class="fa-brands fa-whatsapp"></i>
-            <div class="border">
-              <i class="fa-solid fa-phone"></i> +44 7700 900 817
+      <section id="introductionSection">
+        <header id="mainHeader">
+          <div id="headerImage">
+            <img src="/images/logo.png" alt="logo" />
+          </div>
+          <div id="headerInfo">
+            <div class="headerContact">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div class="border">
+                <i class="fa-solid fa-phone"></i> +44 7700 900 817
+              </div>
+            </div>
+            <ul id="headerLinks">
+              <li class="selected"><a href="#about">About</a></li>
+              <li><a>Location</a></li>
+              <li><a>Advantages</a></li>
+              <li><a>Why us?</a></li>
+              <li><a>Payment Options</a></li>
+              <li><a>Contact Information</a></li>
+            </ul>
+          </div>
+        </header>
+        <main id="mainIntroduction">
+          <div id="leftIntro">
+            <h1>Elite neighborhood in London</h1>
+            <button id="downloadPresentationBtn">Download Presentation</button>
+            <h2>22 Units</h2>
+            <div id="amountOfBuildings">
+              <h1>16</h1>
+              <p>
+                Semi-detached houses <br />
+                1615 sq feet
+              </p>
+              <h1>6</h1>
+              <p>
+                Detached houses <br />
+                2152 sq feet
+              </p>
             </div>
           </div>
-          <ul id="headerLinks">
-            <li class="selected"><a href="#introductionSection">About</a></li>
-            <li><a>Location</a></li>
-            <li><a>Advantages</a></li>
-            <li><a>Why us?</a></li>
-            <li><a>Payment Options</a></li>
-            <li><a>Contact Information</a></li>
-          </ul>
-        </div>
-      </header>
-      <main id="mainIntroduction">
-        <div id="leftIntro">
-          <h1>Elite neighborhood in London</h1>
-          <button id="downloadPresentationBtn">Download Presentation</button>
-          <h2>22 Units</h2>
-          <div id="amountOfBuildings">
-            <h1>16</h1>
+          <div id="rightIntro">
+            <p><strong>Building</strong> has started in September 2021</p>
             <p>
-              Semi-detached houses <br />
-              1615 sq feet
+              Building <strong>completion date</strong> - first quarter 2023
             </p>
-            <h1>6</h1>
+          </div>
+        </main>
+      </section>
+    </div>
+
+    <div class="section-wrapper about-section-wrapper">
+      <section id="about">
+        <div class="heading-container">
+          <h1 class="shadow-text">About the project</h1>
+          <h1 class="section-heading">About the project</h1>
+        </div>
+
+        <div id="aboutContainer">
+          <div id="leftAbout">
             <p>
-              Detached houses <br />
-              2152 sq feet
+              This is elite neighborhood in the east of London, which consists
+              of:
+            </p>
+            <h3>22 Houses:</h3>
+            <ul>
+              <li>- 16 Semi-detached houses, 1615 sq feet</li>
+              <li>- 6 Detached houses, 2152 sq feet</li>
+            </ul>
+            <h3>About the building company</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+              eligendi ut. Tempore non voluptatum pariatur qui, nobis eveniet
+              voluptatem repudiandae dolores perferendis quas consectetur
+              expedita officia aperiam ullam omnis aut. Illo, aliquam? Iure
+              veniam omnis tenetur, odit repudiandae animi accusantium! Nam unde
+              quisquam fugiat perferendis doloremque dignissimos earum,
+              laboriosam dolores reiciendis nobis odio explicabo corporis
+              deserunt ad ipsa obcaecati, modi, tempora ipsam temporibus est
+              consectetur. Error pariatur, porro tempora iste animi modi id
+              voluptate hic quod! Illum, harum molestiae? Possimus eaque autem
+              illum vitae consectetur, eveniet voluptates suscipit porro
+              pariatur ipsam cupiditate repellendus sapiente cum earum, facilis
+              aliquam debitis corporis?
+            </p>
+            <h3>Our mission</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              deleniti quaerat officia sint odio veniam molestiae, ex rerum iste
+              distinctio quae error illo dolorum quo vel consequatur possimus
+              placeat ullam dolores! Error officiis odio fugiat ducimus illo cum
+              quasi veniam? Ipsam alias dignissimos nostrum ducimus pariatur
+              perferendis illo repudiandae at, eaque qui minus, est eligendi nam
+              vero exercitationem aliquam error modi accusantium iste! Nemo
+              impedit odit maxime fugiat reprehenderit quibusdam corrupti quo
+              fugit nisi facere?
+            </p>
+          </div>
+          <div id="rightAbout">
+            <div id="imgContainerAbout">
+              <img
+                class="building-company-img"
+                src="/images/building-company.jpg"
+                alt=""
+              />
+              <div class="building-company-img rect-img"></div>
+              <img
+                src="/images/doted-bg.png"
+                class="building-company-img dot-img"
+              />
+            </div>
+            <h3>Our goal</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              nemo repellat ut maiores explicabo ipsa repudiandae officiis qui
+              magni sit!
             </p>
           </div>
         </div>
-        <div id="rightIntro">
-          <p><strong>Building</strong> has started in September 2021</p>
-          <p>Building <strong>completion date</strong> - first quarter 2023</p>
-        </div>
-      </main>
-    </section>
-    <section>nj</section>
+      </section>
+    </div>
+
+    <div class="section-wrapper cottage-section-wrapper">
+      <section id="cottagesSection">
+        <h1 class="section-heading">Cottages</h1>
+      </section>
+    </div>
   </body>
 </html>

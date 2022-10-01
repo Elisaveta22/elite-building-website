@@ -1,0 +1,13 @@
+@import "commonStyles.css";
+
+#cottagesSection {
+  background-color: rgba(132, 34, 49, 0.05);
+  height: 613px;
+  font-family: "Fira Sans", sans-serif;
+  color: var(--black-font-color);
+}
+
+#cottagesSection .section-heading {
+  margin-top: 39px;
+  margin-left: 130px;
+}

@@ -1,25 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import "commonStyles.css";
 
-:root {
-  --main-color: white;
-  --secondary-color: #dba069;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
+.intro-section-wrapper {
+  background: url("/images/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #introductionSection {
   font-family: "Fira Sans", sans-serif;
   height: 100vh;
-  width: auto;
-  background: url("/images/main-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+
   position: relative;
 }
 
@@ -32,14 +24,12 @@
 }
 
 #mainHeader {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   z-index: 1000;
   display: flex;
   flex-direction: row;
   height: 137px;
-  padding-left: 130px;
-  padding-right: 130px;
 }
 
 #headerImage {
@@ -105,13 +95,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   z-index: 100;
   position: absolute;
   padding-top: 252px;
-  padding-left: 130px;
-  padding-right: 130px;
   color: var(--main-color);
 }
 

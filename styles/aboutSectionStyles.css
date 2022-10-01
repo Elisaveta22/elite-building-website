@@ -1,0 +1,117 @@
+@import "commonStyles.css";
+
+:root {
+  --shadow-text-height: 287px;
+  --heading-text-height: 58px;
+  --left-side-margin: 60px;
+}
+
+#about {
+  font-family: "Fira Sans", sans-serif;
+  width: auto;
+}
+
+#about p {
+  color: #333;
+  line-height: 22px;
+}
+
+#about #aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#about #leftAbout {
+  margin-right: 92px;
+  flex: 3;
+  margin-top: calc(
+    -1 * (var(--shadow-text-height) / 2 - var(--heading-text-height) / 2 -
+          var(--left-side-margin))
+  );
+}
+
+.heading-container {
+  height: 287px;
+  position: relative;
+}
+
+#about .heading-container .section-heading {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  transform: translate(0%, -50%);
+}
+
+.heading-container .shadow-text {
+  position: absolute;
+  margin-top: 0;
+  font-size: 287px;
+  line-height: 287px;
+  color: var(--black-font-color);
+  white-space: nowrap;
+  opacity: 0.05;
+  overflow: hidden;
+  z-index: 0;
+  user-select: none;
+}
+
+#aboutContainer h3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#aboutContainer #leftAbout h3:first-of-type {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#leftAbout ul {
+  list-style: none;
+}
+
+#rightAbout {
+  margin-top: -60px;
+  flex: 2;
+}
+
+#imgContainerAbout {
+  max-height: 513px;
+  width: 100%;
+  height: 100%;
+  margin-top: -60px;
+  position: relative;
+}
+
+#imgContainerAbout .building-company-img {
+  max-width: 442px;
+  max-height: 417px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 100;
+}
+
+#imgContainerAbout .building-company-img.rect-img {
+  background-color: var(--accent-color);
+  width: 442px;
+  height: 417px;
+  position: absolute;
+  top: 33px;
+  left: 42px;
+  z-index: 50;
+}
+
+#imgContainerAbout .building-company-img.dot-img {
+  max-width: 450px;
+  max-height: 513px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 79px;
+  z-index: 1;
+}
