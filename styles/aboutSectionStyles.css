@@ -14,6 +14,8 @@
 #about p {
   color: #333;
   line-height: 22px;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 #about #aboutContainer {
@@ -33,35 +35,10 @@
   );
 }
 
-.heading-container {
-  height: 287px;
-  position: relative;
-}
-
-#about .heading-container .section-heading {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  width: 100%;
-  transform: translate(0%, -50%);
-}
-
-.heading-container .shadow-text {
-  position: absolute;
-  margin-top: 0;
-  font-size: 287px;
-  line-height: 287px;
-  color: var(--black-font-color);
-  white-space: nowrap;
-  opacity: 0.05;
-  overflow: hidden;
-  z-index: 0;
-  user-select: none;
-}
-
 #aboutContainer h3 {
   margin-top: 60px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 #aboutContainer #leftAbout h3:first-of-type {
@@ -71,6 +48,11 @@
 
 #leftAbout ul {
   list-style: none;
+}
+
+#leftAbout ul li {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 #rightAbout {
