@@ -1,4 +1,4 @@
-@import "commonStyles.css";
+@import url("/styles/commonStyles.css");
 
 .intro-section-wrapper {
   background: url("/images/main-bg.jpg");

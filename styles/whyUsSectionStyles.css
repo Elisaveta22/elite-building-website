@@ -1,0 +1,84 @@
+@import url("/styles/commonStyles.css");
+
+#whyUs {
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 84px;
+}
+
+#whyUs .heading-container .shadow-text {
+  left: -130px;
+}
+
+.why-us-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.why-us-content-container .img-container {
+  margin-right: 41px;
+  width: 453px;
+  height: 400px;
+  position: relative;
+}
+
+.why-us-content-container .img-container .why-us-img {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  z-index: 100;
+}
+
+.why-us-content-container .img-container .red-bg {
+  width: 453px;
+  height: 400px;
+  background-color: var(--accent-color);
+  position: absolute;
+  right: 42px;
+  top: 34px;
+  z-index: -1;
+}
+
+.why-us-content-container .img-container .dot-bg {
+  height: 397px;
+  width: 450px;
+  position: absolute;
+  z-index: -100;
+  top: 84px;
+  right: 68px;
+}
+
+.why-us-features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-us-features-item:nth-child(even) {
+  margin-left: 40px;
+}
+
+.why-us-features-item {
+  width: 329px;
+  display: flex;
+  flex-direction: row;
+}
+
+.why-us-features-item .icon-wrapper {
+  margin-right: 15px;
+}
+
+.why-us-features-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black-font-color);
+}
+
+.why-us-features p {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--black-font-color);
+}

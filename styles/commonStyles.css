@@ -27,7 +27,7 @@
 }
 
 .heading-container {
-  height: 287px;
+  height: 213px;
   position: relative;
 }
 
@@ -42,8 +42,8 @@
 .heading-container .shadow-text {
   position: absolute;
   margin-top: 0;
-  font-size: 287px;
-  line-height: 287px;
+  font-size: 213px;
+  line-height: 213px;
   color: var(--black-font-color);
   white-space: nowrap;
   opacity: 0.05;
