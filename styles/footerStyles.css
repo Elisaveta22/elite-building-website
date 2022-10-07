@@ -1,0 +1,49 @@
+@import url("/styles/commonStyles.css");
+
+#footer {
+  padding-top: 100px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer .page-links {
+  display: flex;
+}
+
+#footer .page-links li {
+  margin-right: 60px;
+  list-style: none;
+}
+
+#footer .page-links li:last-child {
+  margin-right: 0;
+}
+
+#footer .page-links li a {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#footer .page-links li a:active, /* активная/посещенная ссылка */
+#footer .page-links li a:hover,  /* при наведении */
+#footer .page-links li a {
+  text-decoration: none;
+  color: var(--black-font-color);
+}
+
+#footer .website-author {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 22px;
+  margin-bottom: 28px;
+}
+
+#footer .website-author:active,
+#footer .website-author:hover,
+#footer .website-author {
+  color: var(--accent-color);
+}
