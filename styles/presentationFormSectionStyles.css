@@ -1,0 +1,87 @@
+@import url("/styles/commonStyles.css");
+
+#presentationFormSection {
+  margin-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+  height: 353px;
+  border: 8px solid var(--accent-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#presentationFormSection h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2e363e;
+}
+
+#presentationFormSection p {
+  color: #2e363e;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  margin-top: 12px;
+}
+#presentationFormSection form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+}
+
+#presentationFormSection form input {
+  width: 280px;
+  height: 85px;
+
+  border-radius: 8px;
+  border: none;
+}
+
+#presentationFormSection form .form-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#presentationFormSection form .form-input .icon {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-size: 21px;
+  color: #7e868e;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+#presentationFormSection form .form-input-field {
+  background-color: #f2f6fa;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2e363e;
+  padding-left: 58px;
+}
+
+#presentationFormSection form .form-input-field::placeholder {
+  font-weight: 400;
+  color: #7e868e;
+  opacity: 1;
+}
+
+#presentationFormSection form .form-btn {
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#presentationFormSection form .form-btn:active {
+  transform: scale(0.98);
+}
