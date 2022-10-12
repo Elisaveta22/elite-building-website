@@ -18,14 +18,14 @@
 .contact-container h1 {
   font-size: 48px;
   font-weight: 700;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }
 
 .contact-container p,
 .contact-container ul {
   font-size: 18px;
   font-weight: 300;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }
 
 .contact-container p {
@@ -50,7 +50,7 @@
 .contact-container ul li a {
   margin-left: 12px;
   text-decoration: none;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }
 
 .qr-container {

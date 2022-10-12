@@ -32,7 +32,7 @@
 #footer .page-links li a:hover,  /* при наведении */
 #footer .page-links li a {
   text-decoration: none;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }
 
 #footer .website-author {
@@ -45,5 +45,5 @@
 #footer .website-author:active,
 #footer .website-author:hover,
 #footer .website-author {
-  color: var(--accent-color);
+  color: $accent-color;
 }

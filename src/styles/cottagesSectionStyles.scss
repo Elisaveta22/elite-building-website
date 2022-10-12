@@ -8,8 +8,8 @@
 #cottagesSection {
   max-width: 1200px;
   width: 100%;
-  font-family: "Fira Sans", sans-serif;
-  color: var(--black-font-color);
+  font-family: $font-stack;
+  color: $black-font-color;
   padding-top: 39px;
 }
 
@@ -28,7 +28,7 @@
   border-radius: 50px;
   border: none;
   color: white;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   font-size: 24px;
   font-weight: 200;
   cursor: pointer;

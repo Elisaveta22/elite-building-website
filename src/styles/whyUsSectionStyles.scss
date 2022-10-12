@@ -35,7 +35,7 @@
 .why-us-content-container .img-container .red-bg {
   width: 453px;
   height: 400px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   position: absolute;
   right: 42px;
   top: 34px;
@@ -73,12 +73,12 @@
 .why-us-features-item h3 {
   font-size: 24px;
   font-weight: 700;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }
 
 .why-us-features p {
   margin-top: 12px;
   font-size: 18px;
   font-weight: 300;
-  color: var(--black-font-color);
+  color: $black-font-color;
 }

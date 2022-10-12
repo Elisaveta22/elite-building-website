@@ -7,7 +7,7 @@
 }
 
 #about {
-  font-family: "Fira Sans", sans-serif;
+  font-family: $font-stack;
   width: auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 #imgContainerAbout .building-company-img.rect-img {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 442px;
   height: 417px;
   position: absolute;

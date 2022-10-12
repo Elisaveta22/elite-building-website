@@ -8,7 +8,7 @@
 }
 
 #introductionSection {
-  font-family: "Fira Sans", sans-serif;
+  font-family: $font-stack;
   height: 100vh;
   width: 100%;
   max-width: 1200px;
@@ -50,7 +50,7 @@
 }
 
 .headerContact {
-  color: var(--main-color);
+  color: $intro-text-color;
   font-size: 20px;
   letter-spacing: 0.04em;
   display: flex;
@@ -64,7 +64,7 @@
 }
 
 .border {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid $intro-secondary-color;
   padding: 5px 10px;
 }
 
@@ -72,7 +72,7 @@
   margin-top: 21px;
   display: flex;
   flex-direction: row;
-  color: var(--main-color);
+  color: $intro-text-color;
   font-size: 16px;
 }
 
@@ -82,13 +82,13 @@
 }
 
 #headerLinks li.selected {
-  border-bottom: 4px solid var(--secondary-color);
+  border-bottom: 4px solid $intro-secondary-color;
 }
 
 #headerLinks li a {
   cursor: pointer;
   text-decoration: dashed;
-  color: var(--main-color);
+  color: $intro-text-color;
 }
 
 #mainIntroduction {
@@ -100,7 +100,7 @@
   z-index: 100;
   position: absolute;
   padding-top: 252px;
-  color: var(--main-color);
+  color: $intro-text-color;
 }
 
 #mainIntroduction h1 {
@@ -109,7 +109,7 @@
 }
 
 #mainIntroduction #downloadPresentationBtn {
-  background-color: var(--secondary-color);
+  background-color: $intro-secondary-color;
   color: #333;
   padding: 20px 30px;
   border: none;
