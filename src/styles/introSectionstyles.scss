@@ -1,5 +1,3 @@
-
-
 .intro-section-wrapper {
   background: url("/images/main-bg.jpg");
   background-position: center;
@@ -30,65 +28,65 @@
   display: flex;
   flex-direction: row;
   height: 137px;
-}
 
-#headerImage {
-  overflow: hidden;
-}
+  #headerImage {
+    overflow: hidden;
 
-#headerImage img {
-  height: 100%;
-  width: auto;
-}
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
 
-#headerInfo {
-  margin-top: 35px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+  #headerInfo {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
-.headerContact {
-  color: $intro-text-color;
-  font-size: 20px;
-  letter-spacing: 0.04em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .headerContact {
+    color: $intro-text-color;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-.fa-whatsapp {
-  font-size: 26px;
-  margin-right: 55px;
-}
+  .fa-whatsapp {
+    font-size: 26px;
+    margin-right: 55px;
+  }
 
-.border {
-  border: 1px solid $intro-secondary-color;
-  padding: 5px 10px;
-}
+  .border {
+    border: 1px solid $intro-secondary-color;
+    padding: 5px 10px;
+  }
 
-#headerLinks {
-  margin-top: 21px;
-  display: flex;
-  flex-direction: row;
-  color: $intro-text-color;
-  font-size: 16px;
-}
+  #headerLinks {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+    color: $intro-text-color;
+    font-size: 16px;
 
-#headerLinks li {
-  margin-left: 50px;
-  list-style-type: none;
-}
+    li {
+      margin-left: 50px;
+      list-style-type: none;
 
-#headerLinks li.selected {
-  border-bottom: 4px solid $intro-secondary-color;
-}
+      a {
+        cursor: pointer;
+        text-decoration: dashed;
+        color: $intro-text-color;
+      }
+    }
 
-#headerLinks li a {
-  cursor: pointer;
-  text-decoration: dashed;
-  color: $intro-text-color;
+    li.selected {
+      border-bottom: 4px solid $intro-secondary-color;
+    }
+  }
 }
 
 #mainIntroduction {
@@ -101,57 +99,57 @@
   position: absolute;
   padding-top: 252px;
   color: $intro-text-color;
-}
 
-#mainIntroduction h1 {
-  font-size: 38px;
-  font-weight: 700;
-}
+  h1 {
+    font-size: 38px;
+    font-weight: 700;
+  }
 
-#mainIntroduction #downloadPresentationBtn {
-  background-color: $intro-secondary-color;
-  color: #333;
-  padding: 20px 30px;
-  border: none;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 30px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+  #downloadPresentationBtn {
+    background-color: $intro-secondary-color;
+    color: #333;
+    padding: 20px 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
-#mainIntroduction #downloadPresentationBtn:active {
-  transform: scale(0.98);
-}
+  #downloadPresentationBtn:active {
+    transform: scale(0.98);
+  }
 
-#mainIntroduction h2 {
-  font-size: 32px;
-  margin-top: 20px;
-}
+  h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
 
-#mainIntroduction #amountOfBuildings {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+  #amountOfBuildings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
-#mainIntroduction #amountOfBuildings p {
-  font-size: 20px;
-  width: 250px;
-}
+    p {
+      font-size: 20px;
+      width: 250px;
+    }
 
-#mainIntroduction #amountOfBuildings h1 {
-  font-size: 128px;
-  padding-right: 20px;
-}
+    h1 {
+      font-size: 128px;
+      padding-right: 20px;
+    }
+  }
 
-#mainIntroduction #rightIntro {
-  margin-top: 15px;
-}
+  #rightIntro {
+    margin-top: 15px;
 
-#mainIntroduction #rightIntro p {
-  font-size: 18px;
-  margin-bottom: 20px;
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 @media (max-width: 1366px) {

@@ -1,5 +1,3 @@
-
-
 #contactInformationSection {
   max-width: 1200px;
   width: 100%;
@@ -13,64 +11,55 @@
 .contact-container {
   margin-right: 92px;
   position: relative;
-}
 
-.contact-container h1 {
-  font-size: 48px;
-  font-weight: 700;
-  color: $black-font-color;
-}
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: $black-font-color;
+  }
 
-.contact-container p,
-.contact-container ul {
-  font-size: 18px;
-  font-weight: 300;
-  color: $black-font-color;
-}
+  p,
+  ul {
+    font-size: 18px;
+    font-weight: 300;
+    color: $black-font-color;
+  }
 
-.contact-container p {
-  margin-top: 28px;
-}
+  p {
+    margin-top: 28px;
+  }
 
-.contact-container ul {
-  list-style: none;
-}
+  ul {
+    list-style: none;
 
-.contact-container ul li {
-  margin-top: 10px;
-}
-/*
-.contact-container ul li a {
-  margin-left: 12px;
-  text-decoration: none !important;
-}*/
+    li {
+      margin-top: 10px;
 
-.contact-container ul li a:active, /* активная/посещенная ссылка */
-.contact-container ul li a:hover,  /* при наведении */
-.contact-container ul li a {
-  margin-left: 12px;
-  text-decoration: none;
-  color: $black-font-color;
+      a:active, /* активная/посещенная ссылка */
+      a:hover,  /* при наведении */
+      a {
+        margin-left: 12px;
+        text-decoration: none;
+        color: $black-font-color;
+      }
+    }
+  }
+
+  .contact-links {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .qr-container {
-  /*position: absolute;
-  bottom: 0;
-  right: 0;
-  top: 100px;*/
   max-width: 177px;
   width: 100%;
   max-height: 177px;
   height: 100%;
-}
 
-.qr-container img {
-  width: 100%;
-  height: 100%;
-}
-
-.contact-container .contact-links {
-  margin-top: 28px;
-  display: flex;
-  justify-content: space-between;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }

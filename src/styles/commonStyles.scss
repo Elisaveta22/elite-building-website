@@ -29,25 +29,25 @@ $intro-secondary-color: #dba069;
 .heading-container {
   height: 213px;
   position: relative;
-}
 
-.heading-container .section-heading {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  width: 100%;
-  transform: translate(0%, -50%);
-}
+  .section-heading {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+  }
 
-.heading-container .shadow-text {
-  position: absolute;
-  margin-top: 0;
-  font-size: 213px;
-  line-height: 213px;
-  color: $black-font-color;
-  white-space: nowrap;
-  opacity: 0.05;
-  overflow: hidden;
-  z-index: 0;
-  user-select: none;
+  .shadow-text {
+    position: absolute;
+    margin-top: 0;
+    font-size: 213px;
+    line-height: 213px;
+    color: $black-font-color;
+    white-space: nowrap;
+    opacity: 0.05;
+    overflow: hidden;
+    z-index: 0;
+    user-select: none;
+  }
 }
